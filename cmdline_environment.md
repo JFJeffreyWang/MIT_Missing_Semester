@@ -76,7 +76,13 @@ tmux window:
 
 
 
+## alias
 
+`alias ll="ls -lah"` set the alias
+
+`alias sl=ls` 
+
+`alias mv="mv -i"` replace `mv` with `mv -i` which will ask me if this command will **overwrite** an existing file 
 
 
 
