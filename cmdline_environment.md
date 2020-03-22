@@ -2,6 +2,8 @@
 
 **看见印度老师就尼玛头大**
 
+##  signal/ bg/ fg
+
 python : `signal.signal(signal.SIGINT, sigint_hander)` 将SIGINT中断交给sigint_handler函数处理
 
 example of sigint_handler:
@@ -36,6 +38,8 @@ def sigint_handler(signum, time):
 `tmux a -t <name>` to reconnect to  a specific session
 
 `tmux kill-session -t <name>`   to kill a session
+
+`tmux kill-server` to kill all sessions
 
 综上所述，以下是 Tmux 的最简操作流程。
 
@@ -78,11 +82,31 @@ tmux window:
 
 ## alias
 
-`alias ll="ls -lah"` set the alias
+**set in ~/.bashrc**
+
+alias ll="ls -lahF"` set the alias
 
 `alias sl=ls` 
 
 `alias mv="mv -i"` replace `mv` with `mv -i` which will ask me if this command will **overwrite** an existing file 
 
+##  zsh
 
+[MacTalk: Why use zsh](https://zhuanlan.zhihu.com/p/19556676)
+
+- [ ] try zsh
+
+## dotfile
+
+[github: dotfiles](https://github.com/search?q=dotfiles)
+
+use **symlinks** to store all the .vimrc/.gitconfig/... in ~/dotfiles 
+
+`ln -s <source_name> <link_name>`
+
+## ssh
+
+`scp`
+
+`rsync` 
 
