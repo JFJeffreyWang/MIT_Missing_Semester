@@ -7,8 +7,8 @@
 - [x] Lecture 3: Editors(vim) 
 - [x] Lecture 4: Data Wrangling 
 - [x] Lecture 5: Command-line Environment
-- [ ] Lecture 6: Version Control(git) (coming soon)
-- [ ] Lecture 7: Debugging and Profiling
+- [x] Lecture 6: Version Control(git)
+- [ ] Lecture 7: Debugging and Profiling (comming soon)
 - [ ] Lecture 8: Metaprogramming
 - [ ] Lecture 9: Security and Cryptography
 - [ ] Lecture 10: Potpourri
